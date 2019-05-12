@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns="http://mushroomobserver.org/response.xsd">
+  <version type="string" content_type="text/plain">1.0</version>
+  <run_date type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 22:18:19</run_date>
+  <query type="string" content_type="application/x-sql">SELECT DISTINCT observations.id FROM `observations` WHERE observations.when &gt;= '2019-05-10' AND observations.when &lt;= '2019-05-10' ORDER BY observations.id ASC</query>
+  <number_of_records type="integer">20</number_of_records>
+  <number_of_pages type="integer">2</number_of_pages>
+  <page_number type="integer">1</page_number>
+  <results number="10">
+<result id="366082" url="http://mushroomobserver.org/observer/show_observation/366082" type="observation">
+<owner id="9553" url="http://mushroomobserver.org/observer/show_user/9553" type="user">
+  <login_name type="string" content_type="text/plain">billyd</login_name>
+  <legal_name type="string" content_type="text/plain">billyd</legal_name>
+  <joined type="date" format="YYYY-MM-DD">2016-10-22 03:34:33</joined>
+  <verified type="date" format="YYYY-MM-DD">2016-10-22 03:34:46</verified>
+  <last_login type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:56:41</last_login>
+  <last_activity type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 19:39:41</last_activity>
+  <contribution type="integer">20231</contribution>
+</owner>
+  <date type="date" format="YYYY-MM-DD">2019-05-10</date>
+<location id="15974" url="http://mushroomobserver.org/location/show_location/15974" type="location">
+  <name type="string" content_type="text/plain">Capital Area Greenbelt, Harrisburg, Pennsylvania, USA</name>
+  <latitude_north type="float" units="degrees north">40.3242</latitude_north>
+  <latitude_south type="float" units="degrees north">40.2431</latitude_south>
+  <longitude_east type="float" units="degrees east">-76.8407</longitude_east>
+  <longitude_west type="float" units="degrees east">-76.9151</longitude_west>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2017-07-17 01:53:52</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2017-07-18 23:59:58</updated_at>
+  <number_of_views type="integer">78</number_of_views>
+  <last_viewed type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-09 16:26:40</last_viewed>
+  <ok_for_export type="boolean" value="true"/>
+</location>
+  <is_collection_location type="boolean" value="true"/>
+<consensus_name id="108550" url="http://mushroomobserver.org/name/show_name/108550" type="name">
+  <name type="string" content_type="text/plain">Rhabdocline pseudotsugae</name>
+  <author type="string" content_type="text/plain">Syd.</author>
+  <rank type="string" content_type="text/plain">species</rank>
+  <citation type="string" content_type="text/html">Rhabdocline pseudotsugae Syd., Annales Mycologici 20: 194 (1922)</citation>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:37</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:21:26</updated_at>
+  <number_of_views type="integer">5</number_of_views>
+  <last_viewed type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 18:26:08</last_viewed>
+  <ok_for_export type="boolean" value="true"/>
+</consensus_name>
+  <confidence type="float" range="-3.0 to 3.0">2.52</confidence>
+  <notes_fields>
+  </notes_fields>
+  <notes type="string" content_type="text/html">&lt;p&gt;Fruiting from needles of Pseudotsuga menziesii.  Spores hyaline, guttulate, one septum in middle with slight constriction.  Paraphyses slender with orange contents.&lt;br /&gt;
+Spore measurement:(16.3) 16.6 &amp;#8211; 20.2 (20.7) × (7) 7.6 &amp;#8211; 8.7 (9.1) µm&lt;br /&gt;
+Q = (1.9) 1.94 &amp;#8211; 2.5 (2.6) ; N = 10; Me = 18.4 × 8.3 µm ; Qe = 2.2&lt;/p&gt;</notes>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:37</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:45</updated_at>
+  <number_of_views type="integer">10</number_of_views>
+  <last_viewed type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 19:00:27</last_viewed>
+  <collection_numbers number="0">
+  </collection_numbers>
+  <herbarium_records number="0">
+  </herbarium_records>
+  <sequences number="0">
+  </sequences>
+  <namings number="1">
+<naming id="521239" url="http://mushroomobserver.org/observer/show_naming/521239" type="naming">
+  <confidence type="float" range="-3.0 to 3.0">2.52</confidence>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:37</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 19:00:30</updated_at>
+<name id="108550" url="http://mushroomobserver.org/name/show_name/108550" type="name">
+  <name type="string" content_type="text/plain">Rhabdocline pseudotsugae</name>
+  <author type="string" content_type="text/plain">Syd.</author>
+  <rank type="string" content_type="text/plain">species</rank>
+  <citation type="string" content_type="text/html">Rhabdocline pseudotsugae Syd., Annales Mycologici 20: 194 (1922)</citation>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:37</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:21:26</updated_at>
+  <number_of_views type="integer">5</number_of_views>
+  <last_viewed type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 18:26:08</last_viewed>
+  <ok_for_export type="boolean" value="true"/>
+</name>
+  <owner id="9553" url="http://mushroomobserver.org/observer/show_user/9553" type="user"/>
+  <observation id="366082" url="http://mushroomobserver.org/observer/show_observation/366082" type="observation"/>
+  <votes number="1">
+<vote id="768978" url="http://mushroomobserver.org/observer/show_vote/768978" type="vote">
+  <confidence type="float" range="-3.0 to 3.0">3.00</confidence>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:38</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:38</updated_at>
+  <naming id="521239" url="http://mushroomobserver.org/observer/show_naming/521239" type="naming"/>
+  <observation id="366082" url="http://mushroomobserver.org/observer/show_observation/366082" type="observation"/>
+</vote>
+  </votes>
+  <reasons number="1">
+    <reason category="Recognized by sight"/>
+  </reasons>
+</naming>
+  </namings>
+<primary_image id="1032300" url="http://mushroomobserver.org/image/show_image/1032300" type="image">
+  <date type="date" format="YYYY-MM-DD">2019-05-10</date>
+  <copyright_holder type="string" content_type="text/plain">billyd</copyright_holder>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:18</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:37</updated_at>
+  <number_of_views type="integer">2</number_of_views>
+  <last_viewed type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 21:54:08</last_viewed>
+  <ok_for_export type="boolean" value="true"/>
+<license id="3" url="http://creativecommons.org/licenses/by-sa/3.0/" type="license">
+  <name type="string" content_type="text/plain">Creative Commons Wikipedia Compatible v3.0</name>
+</license>
+  <owner id="9553" url="http://mushroomobserver.org/observer/show_user/9553" type="user"/>
+</primary_image>
+  <images number="10">
+<image id="1032301" url="http://mushroomobserver.org/image/show_image/1032301" type="image">
+  <date type="date" format="YYYY-MM-DD">2019-05-10</date>
+  <copyright_holder type="string" content_type="text/plain">billyd</copyright_holder>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:18</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:37</updated_at>
+  <number_of_views type="integer">1</number_of_views>
+  <last_viewed type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 17:50:03</last_viewed>
+  <ok_for_export type="boolean" value="true"/>
+<license id="3" url="http://creativecommons.org/licenses/by-sa/3.0/" type="license">
+  <name type="string" content_type="text/plain">Creative Commons Wikipedia Compatible v3.0</name>
+</license>
+  <owner id="9553" url="http://mushroomobserver.org/observer/show_user/9553" type="user"/>
+</image>
+<image id="1032302" url="http://mushroomobserver.org/image/show_image/1032302" type="image">
+  <date type="date" format="YYYY-MM-DD">2019-05-10</date>
+  <copyright_holder type="string" content_type="text/plain">billyd</copyright_holder>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:19</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:37</updated_at>
+  <number_of_views type="integer">1</number_of_views>
+  <last_viewed type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 17:50:29</last_viewed>
+  <ok_for_export type="boolean" value="true"/>
+<license id="3" url="http://creativecommons.org/licenses/by-sa/3.0/" type="license">
+  <name type="string" content_type="text/plain">Creative Commons Wikipedia Compatible v3.0</name>
+</license>
+  <owner id="9553" url="http://mushroomobserver.org/observer/show_user/9553" type="user"/>
+</image>
+<image id="1032303" url="http://mushroomobserver.org/image/show_image/1032303" type="image">
+  <date type="date" format="YYYY-MM-DD">2019-05-10</date>
+  <copyright_holder type="string" content_type="text/plain">billyd</copyright_holder>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:20</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:37</updated_at>
+  <number_of_views type="integer">0</number_of_views>
+  <ok_for_export type="boolean" value="true"/>
+<license id="3" url="http://creativecommons.org/licenses/by-sa/3.0/" type="license">
+  <name type="string" content_type="text/plain">Creative Commons Wikipedia Compatible v3.0</name>
+</license>
+  <owner id="9553" url="http://mushroomobserver.org/observer/show_user/9553" type="user"/>
+</image>
+<image id="1032304" url="http://mushroomobserver.org/image/show_image/1032304" type="image">
+  <date type="date" format="YYYY-MM-DD">2019-05-10</date>
+  <copyright_holder type="string" content_type="text/plain">billyd</copyright_holder>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:21</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:37</updated_at>
+  <number_of_views type="integer">0</number_of_views>
+  <ok_for_export type="boolean" value="true"/>
+<license id="3" url="http://creativecommons.org/licenses/by-sa/3.0/" type="license">
+  <name type="string" content_type="text/plain">Creative Commons Wikipedia Compatible v3.0</name>
+</license>
+  <owner id="9553" url="http://mushroomobserver.org/observer/show_user/9553" type="user"/>
+</image>
+<image id="1032305" url="http://mushroomobserver.org/image/show_image/1032305" type="image">
+  <date type="date" format="YYYY-MM-DD">2019-05-10</date>
+  <copyright_holder type="string" content_type="text/plain">billyd</copyright_holder>
+  <notes type="string" content_type="text/html">&lt;p&gt;H20&lt;/p&gt;</notes>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:22</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:37</updated_at>
+  <number_of_views type="integer">0</number_of_views>
+  <ok_for_export type="boolean" value="true"/>
+<license id="3" url="http://creativecommons.org/licenses/by-sa/3.0/" type="license">
+  <name type="string" content_type="text/plain">Creative Commons Wikipedia Compatible v3.0</name>
+</license>
+  <owner id="9553" url="http://mushroomobserver.org/observer/show_user/9553" type="user"/>
+</image>
+<image id="1032306" url="http://mushroomobserver.org/image/show_image/1032306" type="image">
+  <date type="date" format="YYYY-MM-DD">2019-05-10</date>
+  <copyright_holder type="string" content_type="text/plain">billyd</copyright_holder>
+  <notes type="string" content_type="text/html">&lt;p&gt;Lactophenol blue&lt;/p&gt;</notes>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:23</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:37</updated_at>
+  <number_of_views type="integer">0</number_of_views>
+  <ok_for_export type="boolean" value="true"/>
+<license id="3" url="http://creativecommons.org/licenses/by-sa/3.0/" type="license">
+  <name type="string" content_type="text/plain">Creative Commons Wikipedia Compatible v3.0</name>
+</license>
+  <owner id="9553" url="http://mushroomobserver.org/observer/show_user/9553" type="user"/>
+</image>
+<image id="1032307" url="http://mushroomobserver.org/image/show_image/1032307" type="image">
+  <date type="date" format="YYYY-MM-DD">2019-05-10</date>
+  <copyright_holder type="string" content_type="text/plain">billyd</copyright_holder>
+  <notes type="string" content_type="text/html">&lt;p&gt;Asci. H20&lt;/p&gt;</notes>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:24</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:37</updated_at>
+  <number_of_views type="integer">0</number_of_views>
+  <ok_for_export type="boolean" value="true"/>
+<license id="3" url="http://creativecommons.org/licenses/by-sa/3.0/" type="license">
+  <name type="string" content_type="text/plain">Creative Commons Wikipedia Compatible v3.0</name>
+</license>
+  <owner id="9553" url="http://mushroomobserver.org/observer/show_user/9553" type="user"/>
+</image>
+<image id="1032308" url="http://mushroomobserver.org/image/show_image/1032308" type="image">
+  <date type="date" format="YYYY-MM-DD">2019-05-10</date>
+  <copyright_holder type="string" content_type="text/plain">billyd</copyright_holder>
+  <notes type="string" content_type="text/html">&lt;p&gt;Paraphyses. H20&lt;/p&gt;</notes>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:25</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:37</updated_at>
+  <number_of_views type="integer">0</number_of_views>
+  <ok_for_export type="boolean" value="true"/>
+<license id="3" url="http://creativecommons.org/licenses/by-sa/3.0/" type="license">
+  <name type="string" content_type="text/plain">Creative Commons Wikipedia Compatible v3.0</name>
+</license>
+  <owner id="9553" url="http://mushroomobserver.org/observer/show_user/9553" type="user"/>
+</image>
+<image id="1032309" url="http://mushroomobserver.org/image/show_image/1032309" type="image">
+  <date type="date" format="YYYY-MM-DD">2019-05-10</date>
+  <copyright_holder type="string" content_type="text/plain">billyd</copyright_holder>
+  <notes type="string" content_type="text/html">&lt;p&gt;Ascus. H20&lt;/p&gt;</notes>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:26</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:37</updated_at>
+  <number_of_views type="integer">0</number_of_views>
+  <ok_for_export type="boolean" value="true"/>
+<license id="3" url="http://creativecommons.org/licenses/by-sa/3.0/" type="license">
+  <name type="string" content_type="text/plain">Creative Commons Wikipedia Compatible v3.0</name>
+</license>
+  <owner id="9553" url="http://mushroomobserver.org/observer/show_user/9553" type="user"/>
+</image>
+<image id="1032310" url="http://mushroomobserver.org/image/show_image/1032310" type="image">
+  <date type="date" format="YYYY-MM-DD">2019-05-10</date>
+  <copyright_holder type="string" content_type="text/plain">billyd</copyright_holder>
+  <notes type="string" content_type="text/html">&lt;p&gt;H20&lt;/p&gt;</notes>
+  <created_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:27</created_at>
+  <updated_at type="date-time" format="YYYY-MM-DD HH:MM:SS">2019-05-10 16:20:37</updated_at>
+  <number_of_views type="integer">0</number_of_views>
+  <ok_for_export type="boolean" value="true"/>
+<license id="3" url="http://creativecommons.org/licenses/by-sa/3.0/" type="license">
+  <name type="string" content_type="text/plain">Creative Commons Wikipedia Compatible v3.0</name>
+</license>
+  <owner id="9553" url="http://mushroomobserver.org/observer/show_user/9553" type="user"/>
+</image>
+  </images>
+  <comments number="0">
+  </comments>
+</result>
+

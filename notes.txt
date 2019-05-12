@@ -1,0 +1,36 @@
+
+To activate conda environment:
+- "conda activate tensorflow_env"
+
+https://github.com/bechtle/mushroomobser-dataset
+
+
+
+
+
+Keys in observation:
+@id
+@url
+@type
+owner
+date
+location
+is_collection_location
+consensus_name
+confidence
+notes_fields
+notes
+created_at
+updated_at
+number_of_views
+last_viewed
+collection_numbers
+herbarium_records
+sequences
+namings
+primary_image
+images
+comments
+366082
+
+
