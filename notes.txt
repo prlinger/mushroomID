@@ -1,36 +1,56 @@
 
+Keep reading:
+https://www.tensorflow.org/tutorials/images/deep_cnn
+https://www.tensorflow.org/tutorials/images/hub_with_keras
+https://keras.io/examples/cifar10_cnn/
+
+
 To activate conda environment:
 - "conda activate tensorflow_env"
 
 https://github.com/bechtle/mushroomobser-dataset
 
 
+The training and testing data images are named as such:
+<total_index>.<species_name>.<index_within_species>.jpg
+
+
+For some reason MobileNetV2 does not get saved properly.  This is a known problem.  It breaks when loarding the data.
 
 
 
-Keys in observation:
-@id
-@url
-@type
-owner
-date
-location
-is_collection_location
-consensus_name
-confidence
-notes_fields
-notes
-created_at
-updated_at
-number_of_views
-last_viewed
-collection_numbers
-herbarium_records
-sequences
-namings
-primary_image
-images
-comments
-366082
+################################################################
+Working with dataset 1:
 
+For this first iteration, I am using species with number of images between 225 and 275 images.
+Total training images: 2928
+Total testing images: 2938
+
+Amanita_amerirubescens_group is ----      251 images
+Amanita_sect._Amanita is ----      273 images
+Amanita_sect._Phalloideae is ----      226 images
+Boletus_edulis_group is ----      245 images
+Boletus_sect._Boletus is ----      253 images
+Coprinellus_sect._Micacei is ----      258 images
+Coprinopsis is ----      242 images
+Cortinarius_subgenus_Telamonia is ----      228 images
+Crepidotus is ----      227 images
+Galerina_marginata is ----      254 images
+Ganoderma is ----      231 images
+Ganoderma_tsugae is ----      231 images
+Hydnaceae is ----      262 images
+Lepiota is ----      258 images
+Lycoperdon is ----      226 images
+Melanoleuca is ----      244 images
+Peziza is ----      233 images
+Pholiota is ----      261 images
+Poria is ----      262 images
+Ramaria is ----      244 images
+Scutellinia is ----      226 images
+Trametes is ----      234 images
+Trametes_betulina is ----      229 images
+Tricholoma is ----      266 images
+
+
+A test accuracy better than (1/24) = 0.0416 is desired.
 

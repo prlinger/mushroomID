@@ -1,6 +1,6 @@
 import numpy
 # from lxml import html
-from lxml import etree
+# from lxml import etree
 import requests
 import re
 import urllib
@@ -13,7 +13,6 @@ from requests.exceptions import HTTPError
 import time
 import xmltodict
 import ujson
-import time
 
 
  # Global Information about all the observations
@@ -190,10 +189,10 @@ def main():
         # "2018-05",
         # "2018-06",
         # "2018-07",
-        "2018-08", # failed at >>> Fetched id 325769 in 6.087580919265747s :: In date 2018-08 :: id 337/6136
-        # "2018-09",
-        # "2018-10",
-        # "2018-11",
+        # "2018-08", # failed at >>> Fetched id 325769 in 6.087580919265747s :: In date 2018-08 :: id 337/6136
+        # "2018-09", # failed.  (mostly processed 5000/6000) or something
+        # "2018-10", # failed.  (mostly processed 5000/6000) or something
+        # "2018-11", # failed.  (mostly processed 5000/6000) or something
         # "2018-12" # failed at >>> Fetched id 350163 in 5.488338947296143s :: In date 2018-12 :: id 668/3174
     ]
 

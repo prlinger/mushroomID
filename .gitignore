@@ -1,4 +1,7 @@
 /data/dataset
 /data/dataset_summaries
 /data/logfile.txt
+/data/*Data*/
+/logs
+/saved_models
 
