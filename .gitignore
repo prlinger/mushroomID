@@ -4,4 +4,4 @@
 /data/*Data*/
 /logs
 /saved_models
-
+/data/*.zip

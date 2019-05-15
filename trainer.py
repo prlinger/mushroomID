@@ -23,10 +23,23 @@ save_dir = os.path.join("./saved_models")
 
 model_name = "model1"
 
+# Get list for sample weights
+# The idea of this was to address imbalanced data.  I misunderstood and thought
+# I would be easily able to pass this as a parameter and achieve synthetic minority over-sampling (SMOTE),
+# but no.  The data set is somewhat balanced at least.
+# class_weights = []
+# class_weight_sum = 0
+# for dir in os.listdir(train_dir):
+#      class_weights.append(len(os.listdir(os.path.join(train_dir, dir))))
+#      class_weight_sum += len(os.listdir(os.path.join(train_dir, dir)))
+# class_weights = list(map(lambda x: class_weight_sum/x, class_weights)) # divide sum by weight
+# class_weight_sum = sum(class_weights) # update the sum of weights
+# class_weights = list(map(lambda x: x/class_weight_sum, class_weights)) # normalize weights
+
 # Create image generators with image augmentation
 
 image_size = 160
-batch_size = 16 #32
+batch_size = 32
 
 # Rescale all images by 1./255
 train_datagen = keras.preprocessing.image.ImageDataGenerator(rescale=1./255)
@@ -36,12 +49,14 @@ validation_datagen = keras.preprocessing.image.ImageDataGenerator(rescale=1./255
 train_data = train_datagen.flow_from_directory(
     train_dir,
     target_size=(image_size, image_size),
-    batch_size=batch_size
+    batch_size=batch_size,
+    shuffle=True
 )
 validation_data = validation_datagen.flow_from_directory(
     validation_dir,
     target_size=(image_size, image_size),
-    batch_size=batch_size
+    batch_size=batch_size,
+    shuffle=True
 )
 
 # Print shapes of raw images (this will be changed by the generator)
@@ -74,7 +89,7 @@ model = tf.keras.Sequential([
 ])
 
 # initialize RMSprop optimizer
-opt = keras.optimizers.RMSprop(lr=0.0001)
+opt = keras.optimizers.RMSprop(lr=0.0005)
 
 # Compile the model
 model.compile(
@@ -89,7 +104,7 @@ model.summary()
 tensorboard = keras.callbacks.TensorBoard(log_dir="logs/{}".format(time.time()))
 
 # Training:
-epochs = 2
+epochs = 40
 steps_per_epoch = train_data.n # batch size
 validation_steps = validation_data.n # batch size
 
